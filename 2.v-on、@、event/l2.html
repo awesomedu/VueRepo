@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>l2</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="l2.css">
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<div id="l2">
+		<h1>events</h1>
+		<button @click=age++>plus + 1</button>
+		<button v-on:click=age-->minus + 1</button>
+		<button @dblclick=age++>db plus + 1</button>
+		<button v-on:dblclick=age-->db minus + 1</button>
+		<p>my age is{{age}}</p>
+
+		<div id="canvas" @mousemove="updateXY">{{x}},{{y}}</div>
+	</div>
+
+	<script src="l2.js"></script>
+</body>
+</html>
