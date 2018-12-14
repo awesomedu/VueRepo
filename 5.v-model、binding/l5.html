@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>l5</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="l5.css">
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<div id="l5">
+		<h1>keyboard event</h1>
+		<label>name:</label>
+		<input ref="name" type="text" v-model="name">
+		<span>{{name}}</span>
+		<label>age:</label>
+		<input ref="age" type="text" v-on:keyup="logAge">
+		<span>{{age}}</span>
+		
+		
+	</div>
+
+	<script src="l5.js"></script>
+</body>
+</html>
