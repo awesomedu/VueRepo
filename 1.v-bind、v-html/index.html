@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vue.js</title>
+	<link rel="stylesheet" type="text/css" href="stlye.css">
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<div id="l1">
+		<h1>{{greet('night')}}</h1>
+		<p>Name:{{name}}</p>
+		<a v-bind:href="website">test</a>
+		<input type="text" v-bind:value="bindValue">
+		<p v-html="message"></p>
+		
+	</div>
+	<script src="app.js"></script>
+
+	
+	
+</body>
+</html>
