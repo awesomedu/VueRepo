@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>l4</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="l4.css">
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<div id="l4">
+		<h1>keyboard event</h1>
+		<label>name:</label>
+		<input type="text" v-on:keyup.enter="logName">
+		<label>age:</label>
+		<input type="text" v-on:keyup="logAge">
+		
+		
+	</div>
+
+	<script src="l4.js"></script>
+</body>
+</html>
