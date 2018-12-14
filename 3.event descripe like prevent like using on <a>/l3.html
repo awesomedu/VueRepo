@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>l3</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="l3.css">
+	<script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+	<div id="l3">
+		<h1>events</h1>
+		<button @click=age++>plus + 1</butto n>
+		<button v-on:click=age-->minus + 1</button>
+		<button @dblclick=age++>db plus + 1</button>
+		<button v-on:dblclick=age-->db minus + 1</button>
+		<p>my age is{{age}}</p>
+
+		<div id="canvas" @mousemove="updateXY">{{x}},{{y}} -
+		<span id="defent" @mousemove.stop="">阻止事件</span>
+		</div>
+
+		<a @click.prevent="alert()" href="http://www.baidu.com">jump</a>
+	</div>
+
+	<script src="l3.js"></script>
+</body>
+</html>

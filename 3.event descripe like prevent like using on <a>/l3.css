@@ -1,0 +1,11 @@
+#canvas{
+	width: 600px;
+	padding: 200px 20px;
+	text-align: center;
+	background: green;
+	border: 1px solid #ff1123;
+}
+
+#defent{
+	background:cyan;
+}
