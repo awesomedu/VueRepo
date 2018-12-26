@@ -1,0 +1,2 @@
+1."dev": "webpack-dev-server --host 0.0.0.0 --inline --progress --config build/webpack.dev.conf.js"
+   package.json 添加--host 0.0.0.0， 手机与pc在同一局域网，可进行联机调试
